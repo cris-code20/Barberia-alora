@@ -1,0 +1,86 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+.encabezado{
+    background-color: gray;
+    width: 100%;
+    
+}
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.navegacion a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.navegacion a:last-child{
+    margin-right: 30px;
+}
+
+.navegacion a:hover{
+    font-size: 30px;
+    color: rgb(255, 145, 0);
+}
+
+.logo img{
+    position: relative;
+    left: 200px;
+}
+
+/* final del header */
+
+.content_main{
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    text-align: center;
+    padding: 50px 200px;
+}
+
+.card{
+    border: 1px #000 solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:hover{
+    border:rgb(255, 145, 0) solid 4px;
+    font-size: 18px;
+}
+
+.card h2{
+    color: #000;
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+
+.content_footer{
+    background-image: url(./src/img/bg.jpg);
+    height: 300px;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.fondo{
+  position: relative;
+  top: 50px;
+}
